@@ -26,7 +26,7 @@ Route::get('/about', function () {
 });
 
 Route::get('/blog', function () {
-    return view('post');
+    return view('blog');
 });
 
 
